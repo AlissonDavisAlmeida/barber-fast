@@ -1,0 +1,23 @@
+☐ [ ] **Definição do Banco de Dados** @started(25-02-26 21:57)
+  ✔ [ ] Escolher o banco de dados (PostgreSQL, MySQL, SQLite, etc.) @done(25-02-26 22:28)
+  ✔ [ ] Modelar as tabelas principais (clientes, serviços, agendamentos, barbearias, funcionários, etc.) @done(25-02-26 22:39)
+  - [ ] Criar migrações iniciais no Prisma
+
+✔ [ ] **Configuração do Projeto** @done(25-02-26 21:57)
+  ✔ [ ] Criar o monorepo com NX @done(25-02-26 21:57)
+  ✔ [ ] Adicionar o NestJS e configurar o Prisma @done(25-02-26 22:28)
+  - [ ] Configurar PostgreSQL no Docker
+  - [ ] Configurar variáveis de ambiente (.env)
+  - [ ] Criar conexão com o banco de dados
+
+- [ ] **Definição das Rotas e Controllers**
+  - [ ] Criar rotas básicas (CRUD de barbearias, agendamentos, serviços, clientes)
+  - [ ] Implementar autenticação (JWT)
+
+- [ ] **Configuração de Middleware e Segurança**
+  - [ ] Adicionar CORS, rate limiting e validações
+  - [ ] Criar middleware para logs
+
+- [ ] **Testes e Documentação**
+  - [ ] Configurar Swagger para documentar a API
+  - [ ] Escrever testes básicos para as rotas
